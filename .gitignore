@@ -1,0 +1,5 @@
+debian/.debhelper/
+debian/aacs-keydb-installer.substvars
+debian/aacs-keydb-installer/
+debian/debhelper-build-stamp
+debian/files

@@ -1,0 +1,14 @@
+Source: aacs-keydb-installer
+Section: libs
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@gmx.net>
+Build-Depends: debhelper (>= 11)
+Standards-Version: 4.1.3
+
+Package: aacs-keydb-installer
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}, wget, unzip
+Description: installs the aacs keydb
+ To be able to play Blu-ray discs an additional key file needs to be downloaded.
+ This installer automatically downloads, unpacks and moves the key file to the
+ correct place.
